@@ -10,8 +10,10 @@ class BoardController < ApplicationController
     post = Post.new
     post.title = params[:title]
     post.content = params[:content]
+    post.photo = params[:photo]
     post.save
     
+    redirect_to '/'
   end
   
   def show

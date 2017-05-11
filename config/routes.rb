@@ -8,7 +8,7 @@ Rails.application.routes.draw do
 
   get 'board/:id' => 'board#show'
   
-  get 'board/create'
+  post 'board/create'
 
   get 'board/:id/create_reply' => 'board#create_reply'
 
