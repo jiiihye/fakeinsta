@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  career: MyText
+  main: MyText
+  addition: MyText
+
+two:
+  career: MyText
+  main: MyText
+  addition: MyText
